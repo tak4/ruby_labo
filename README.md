@@ -1,4 +1,4 @@
-ruby-labo
+ruby_labo
 =========
 
 Ruby for studying
