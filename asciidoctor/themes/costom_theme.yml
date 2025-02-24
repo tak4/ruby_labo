@@ -1,0 +1,6 @@
+font:
+  catalog:
+    # 日本語フォントを指定
+    noto_serif: NotoSansJP-Regular.ttf
+base:
+  font_family: noto_serif

@@ -1,0 +1,195 @@
+// https://docs.asciidoctor.org/asciidoc/latest/attributes/document-attributes-ref/
+:doctype: book
+:scripts: cjk
+// imageファイルの場所を指定する
+:imagesdir: ./images
+// 効果不明
+:lang: ja
+// セクション番号の深さ
+:sectnumlevels: 4
+// セクション番号
+:sectnums:
+// セクションタイトルをリンクにする htmlの時だけ効果あり？
+:sectlinks:
+// 目次に表示する最大セクションレベル
+:toclevels: 4
+// 目次のタイトル
+:toc-title: attr toc title
+// レベル１のセクションに"Chapter"というラベルを付ける 
+:chapter-signifier:
+// 図のキャプション
+:figure-caption: attr figure
+// テーブルのキャプション
+:table-caption: attr table caption
+// [example] のキャプション
+:example-caption: attr example caption
+// [appendix] のキャプション
+:appendix-caption: attr appendix
+// [listing] のキャプション
+:listing-caption: attr list caption
+// [NOTE] のキャプション
+:note-caption: attr note
+// [TIP] のキャプション
+:tip-caption: 💡
+// [CAUTION] のキャプション
+:caution-caption: 👌
+// [WARNING] のキャプション
+:warning-caption: ⚠️
+// [IMPORTANT] のキャプション
+:important-caption: ⚠️
+// バージョン表示
+:version-label: Edition
+:revnumber: 1.0.3
+// バージョン表示のラベル
+:last-update-label: attr last update
+:revdate: 2025/2/23
+// :trademark-desc: XXX
+:docdate: 2025/2/23
+:toc:
+
+= level 0
+
+日本語表示
+
+.Optional title
+[example]
+This is an example of an example block.
+
+.Listing style syntax
+[listing]
+This is an example of a paragraph assigned
+the `listing` style in an attribute list.
+Notice that the monospace marks are
+preserved in the output.
+
+.Unordered Lists
+* Edgar Allan Poe
+* Sheri S. Tepper
+* Bill Bryson
+
+.Ordered Lists
+. Protons
+. Electrons
+. Neutrons
+
+.A table with a title 
+|===
+|Column 1, header row |Column 2, header row|Column 3, header row
+
+|Cell in column 1, row 2
+|Cell in column 2, row 2
+|Cell in column 3, row 3
+|===
+
+[source,ruby]
+----
+puts "Hello, world!"
+----
+
+// Admonitions (警告)
+// https://docs.asciidoctor.org/asciidoc/latest/blocks/admonitions/
+
+[NOTE]
+====
+important information
+====
+
+[TIP]
+====
+tip
+====
+
+[CAUTION]
+====
+caution
+====
+
+[WARNING]
+====
+warning
+====
+
+[IMPORTANT]
+.Feeding the Werewolves
+====
+While werewolves are hardy community members, keep in mind the following dietary concerns:
+
+. They are allergic to cinnamon.
+. More than two glasses of orange juice in 24 hours makes them howl in harmony with alarms and sirens.
+. Celery makes them sad.
+====
+
+// 
+.Styles of music
+[#music-styles]
+****
+Go off on a tangent to describe what a style of music is.
+****
+
+....
+This text will be treated as verbatim content.
+....
+
+====
+This is an example of an example block.
+That's so meta.
+====
+
+
+
+
+== level 1-1
+
+.512x512
+image::512x512.png[]
+
+
+=== level 2-1
+
+日本語表示
+
+.1024x1024
+image::1024x1024.png[]
+
+=== level 3-1
+
+日本語表示
+
+==== level 4-1
+
+日本語表示
+
+===== level 5-1
+
+日本語表示
+
+
+== level 1-2
+
+日本語表示
+
+=== level 2-2
+
+日本語表示
+
+=== level 3-2
+
+日本語表示
+
+[appendix]
+== First Appendix
+
+日本語表示
+
+=== First Subsection
+
+日本語表示
+
+=== Second Subsection
+
+日本語表示
+
+[appendix]
+== Second Appendix
+
+日本語表示
