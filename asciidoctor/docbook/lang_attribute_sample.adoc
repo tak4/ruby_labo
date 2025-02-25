@@ -1,0 +1,24 @@
+= サンプル文書
+:lang: ja
+:example-caption: 例
+
+== はじめに
+
+これは日本語で書かれた文書のサンプルです。
+
+== 特徴
+
+* 言語に応じた適切な改行処理
+* 日本語フォントの使用（PDF出力時）
+* 目次や図表キャプションの自動翻訳
+
+== コードサンプル
+
+[source,python]
+----
+print("こんにちは、世界！")
+----
+
+.Optional title
+[example]
+This is an example of an example block.
