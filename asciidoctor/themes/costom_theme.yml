@@ -18,6 +18,9 @@ toc:
     font_size: 10
     font_style: normal
     font_color: #00ff00
+    line_height: 1.5
+    indent: 20
+    padding: [0, 10, 0, 10]
   h3:
     font_family: notoSansjp_light
     font_size: 10
