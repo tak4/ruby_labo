@@ -1,6 +1,35 @@
 font:
   catalog:
     # 日本語フォントを指定
-    noto_serif: NotoSansJP-Regular.ttf
+    notoSansjp_regular: NotoSansJP-Regular.ttf
+    notoSansjp_light: NotoSansJP-Light.ttf
+    
 base:
-  font_family: noto_serif
+  font_family: notoSansjp_regular
+
+toc:
+  h1:
+    font_family: notoSansjp_light
+    font_size: 10
+    font_style: normal
+    font_color: #ff0000
+  h2:
+    font_family: notoSansjp_light
+    font_size: 10
+    font_style: normal
+    font_color: #00ff00
+  h3:
+    font_family: notoSansjp_light
+    font_size: 10
+    font_style: normal
+    font_color: #0000ff
+  h4:
+    font_family: notoSansjp_light
+    font_size: 10
+    font_style: normal
+    font_color: #ffff00
+  h5:
+    font_family: notoSansjp_light
+    font_size: 10
+    font_style: normal
+    font_color: #00ffff
